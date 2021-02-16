@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5BFA9"
+    tools:context=".Instruction">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:text="Hướng dẫn sử dụng"
+                android:textAlignment="center"
+                android:textColor="#22085E"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text="Để điện thoại bằng phẳng ở trong lòng bàn tay, ngoài ra nếu được có thể đặt ở trên một mặt phẳng là sàn nhà hoặc mặt bàn, sau đó làm theo hướng dẫn ở phía trên của màn hình. Người dùng cần phải thực hiện để nghiêng di động để cho bộ cảm ứng có thể hoạt động hiệu quả.\n\nĐể xem hướng nhà, hướng bàn làm việc học tập hoặc hướng khác nhau để xem có hợp tuổi với bạn hay không thông thường bạn sẽ nghĩ ngay tới việc sử dụng chiếc la bàn. Tuy nhiên thực tế không cần tới la bàn bạn cũng có thể xem được hướng nhà đất khá chính xác với chiếc điện thoại iPhone của mình hoặc kể cả điện thoại Android, windows phone.\n\nTrên điện thoại iPhone hoặc các smartphone đời mới đều có tích hợp cảm biến từ trường giúp việc xác định hướng khá chính xác. Trên iPhone thì ứng dụng La bàn (Compass) cũng được cài đặt sẵn trong các hệ điều hành ios. Hoặc các bạn cũng có thể tìm trên Store nếu không có với nhiều ứng dụng la bàn khác chi tiết hơn."
+                android:textColor="#130101"
+                android:textSize="18sp"
+                android:textStyle=""
+                app:fontFamily="sans-serif-light" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20px"
+                android:paddingRight="20px"
+                android:text='\nThông thường trên mỗi chiếc la bàn thường sẽ có các thông số chia độ cũng như ký hiệu viết tắt các hướng. Cụ thể:
+        \n\n➤ Hướng Bắc sẽ được viết tắt là N và trải dài từ 33 7,5 độ đến 22,5 độ. Trong đó hướng chính Bắc sẽ ở vị trí 0 độ
+        \n\n➤ Hướng Đông Bắc được kí hiệu là NE, trải dài từ 22,5 độ đến 67,5 độ. Vị trí chính hướng Đông Bắc sẽ ở 45 độ.
+        \n\nHướng đông ký hiệu E, trải dài từ 67,5 độ đến 112,5 độ hoặc tính 22,5 độ bên trái kéo đến 22,5 độ bên phải. Trong đó một 90 độ được xác định là hướng chính đông.  Hướng Đông Nam ký hiệu là SE, và trải dài từ 112,5 độ đến 157,5 độ.  Vị trí chính hướng Đông Nam sẽ ở 135 độ  Hướng Nam ký hiệu chính S và trải dài từ 157,5 độ đến 202,5 độ và vị trí chính Nam rơi vào 180 độ  Hướng Tây Nam ký hiệu SW, trải dài từ 202,5 độ đến 247,5 độ và vị trí chính Tây Nam ở 225 độ  Hướng tây ký hiệu là W trải dài từ 247,5 độ đến 292,5 độ trong đó vị trí chính tây ở 270 độ  Cuối cùng hướng tây bắc được kí hiệu là NW và trải dài từ 292,5 độ đến 337,5 độ. vị trí chính Tây Bắc rơi vào khoảng tọa độ 315 độ"'
+                android:textColor="#171616"
+                android:textSize="18dp"
+                app:fontFamily="sans-serif-light" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
